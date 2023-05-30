@@ -1,4 +1,5 @@
 document.addEventListener('keydown', function (event) {
+    animation(event);
     switch (event.key) {
         case 'w':
             var audio = new Audio('./sounds/tom-1.mp3');
@@ -29,4 +30,12 @@ document.addEventListener('keydown', function (event) {
             audio.play();
             break;
     }
-})
+});
+
+function animation (keyPressed) {
+    var key = document.querySelector("." + keyPressed.key);
+    key.classList.add("pressed");
+    setTimeout(function () {
+        key.classList.remove("pressed")},
+        200)
+}
