@@ -22,6 +22,8 @@ body {
     border: 10px solid brown;
     background-color: white;
     border-radius: 15px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
 }
 
 .footer {
@@ -29,29 +31,29 @@ body {
 }
 
 .w {
-
+    background-image: url(./images/tom1.png);
 }
 
 .a {
-
+    background-image: url(./images/tom2.png);
 }
 
 .s {
-
+    background-image: url(./images/tom3.png);
 }
 
 .d {
-
+    background-image: url(./images/tom4.png);
 }
 
 .j {
-
+    background-image: url(./images/snare.png);
 }
 
 .k {
-
+    background-image: url(./images/kick.png);
 }
 
 .l {
-
+    background-image: url(./images/crash.png);
 }
